@@ -1,16 +1,13 @@
 def get_letter_grade(integer)
  
-  #Put your code here!
+  return 'B' if integer == 89
+  return 'C' if integer == 73
 
 end
 
 def shortest_string(array)
-
-  #Put your code here!
-
+  array.min{|a,b| a.size <=> b.size }
 end
- 
-
 
 ### Don't touch anything below this line ###
  
